@@ -1,5 +1,6 @@
-// Mock payload shaped like the response the real offboarding endpoint(s) will return.
-// Swapping this for a live fetch later is a data-source change only (see offboardingApi.js).
+// Mock payload for GET /api/offboarding, shaped like the response the real
+// offboarding workflow (LWD capture, clearance, FnF gating) will return.
+// See docs/PRD.md.
 
 export const offboardingMockData = {
   kpis: {

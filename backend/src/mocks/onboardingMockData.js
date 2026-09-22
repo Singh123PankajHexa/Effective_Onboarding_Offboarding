@@ -1,5 +1,6 @@
-// Mock payload shaped like the response the real onboarding endpoint(s) will return.
-// Swapping this for a live fetch later is a data-source change only (see onboardingApi.js).
+// Mock payload for GET /api/onboarding, shaped like the response the real
+// onboarding workflow (department tasks, readiness, DOJ pipeline) will return.
+// See docs/PRD.md.
 
 export const onboardingMockData = {
   kpis: {
