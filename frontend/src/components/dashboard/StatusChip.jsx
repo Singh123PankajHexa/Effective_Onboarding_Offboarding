@@ -9,6 +9,7 @@ const STATUS_MAP = {
   attention: { label: 'Attention', color: 'warning' },
   not_started: { label: 'Not started', color: 'error' },
   blocked: { label: 'Blocked', color: 'error' },
+  released: { label: 'Released', color: 'success' },
 };
 
 export default function StatusChip({ status, label }) {
