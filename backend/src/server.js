@@ -5,6 +5,7 @@ import cors from 'cors';
 import recruitmentRoutes from './routes/recruitment.js';
 import onboardingRoutes from './routes/onboarding.js';
 import offboardingRoutes from './routes/offboarding.js';
+import dashboardRoutes from './routes/dashboard.js';
 import aiRoutes from './routes/ai.js';
 
 const app = express();
@@ -20,6 +21,7 @@ app.get('/health', (req, res) => {
 app.use('/api/recruitment', recruitmentRoutes);
 app.use('/api/onboarding', onboardingRoutes);
 app.use('/api/offboarding', offboardingRoutes);
+app.use('/api/dashboard', dashboardRoutes);
 app.use('/api/ai', aiRoutes);
 
 app.listen(port, () => {

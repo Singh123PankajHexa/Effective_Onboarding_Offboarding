@@ -1,6 +1,7 @@
-// Mock payload shaped like the response the real dashboard endpoint(s) will return.
-// Field names follow the PRD's planned schema (department, status, dueDate/DOJ/LWD,
-// clearance) so swapping this for a live fetch later is a data-source change only.
+// Mock payload for GET /api/dashboard, shaped like the response the real
+// cross-functional summary endpoint will return. Field names follow the
+// PRD's planned schema (department, status, dueDate/DOJ/LWD, clearance).
+// See docs/PRD.md.
 
 export const dashboardMockData = {
   kpis: {

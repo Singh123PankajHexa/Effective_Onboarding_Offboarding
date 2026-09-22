@@ -1,5 +1,6 @@
-// Mock payload shaped like the response the real recruitment endpoint(s) will return.
-// Swapping this for a live fetch later is a data-source change only (see recruitmentApi.js).
+// Mock payload for GET /api/recruitment, shaped like the response the real
+// recruitment workflow (candidate pipeline, approvals, DOJ handoff) will return.
+// See docs/PRD.md.
 
 export const recruitmentMockData = {
   kpis: {
